@@ -100,10 +100,11 @@ $(document).ready(function(){initNavTree('d9/d00/factorial_8cpp.html','../../');
 <p>C++ program to find factorial of given number.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for factorial.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d78/factorial_8cpp__incl.svg" width="138" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d78/factorial_8cpp__incl.svg" width="176" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -111,6 +112,9 @@ Include dependency graph for factorial.cpp:</div>
 Functions</h2></td></tr>
 <tr class="memitem:ae9945c15826a9c1b5c141db314b7f8b4"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d00/factorial_8cpp.html#ae9945c15826a9c1b5c141db314b7f8b4">factorial</a> (unsigned int n)</td></tr>
 <tr class="separator:ae9945c15826a9c1b5c141db314b7f8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f1c73b0bce2e2d5eb94b14ae0d78625"><td class="memItemLeft" align="right" valign="top"><a id="a0f1c73b0bce2e2d5eb94b14ae0d78625"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>check_number</b> (<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">string</a> str)</td></tr>
+<tr class="separator:a0f1c73b0bce2e2d5eb94b14ae0d78625"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d00/factorial_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -133,11 +137,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>function to find factorial of given number </p>
-<div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;                                       {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (n == 0)</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> n * <a class="code" href="../../d9/d00/factorial_8cpp.html#ae9945c15826a9c1b5c141db314b7f8b4">factorial</a>(n - 1);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                                       {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (n == 0)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">return</span> n * <a class="code" href="../../d9/d00/factorial_8cpp.html#ae9945c15826a9c1b5c141db314b7f8b4">factorial</a>(n - 1);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -156,16 +160,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Main function </p>
-<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;           {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">int</span> num = 5;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Factorial of &quot;</span> &lt;&lt; num &lt;&lt; <span class="stringliteral">&quot; is &quot;</span> &lt;&lt; <a class="code" href="../../d9/d00/factorial_8cpp.html#ae9945c15826a9c1b5c141db314b7f8b4">factorial</a>(num)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;           {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">string</span> str;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">int</span> found = str.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/find.html">find</a>(<span class="stringliteral">&quot;-&quot;</span>);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">int</span> num;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot;Please enter an integer to test factorial(0-33):&quot;</span> &lt;&lt; <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">cin</a> &gt;&gt; str;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span> (str[0] == <span class="charliteral">&#39;-&#39;</span>) {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot;Integer cannot be negative&quot;</span> &lt;&lt; <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">if</span> (found != 0) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">if</span> (check_number(str)) {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_stringstream.html">stringstream</a> ss;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                ss &lt;&lt; str;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                ss &gt;&gt; num;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot;Factorial of &quot;</span> &lt;&lt; num &lt;&lt; <span class="stringliteral">&quot; is &quot;</span> &lt;&lt; <a class="code" href="../../d9/d00/factorial_8cpp.html#ae9945c15826a9c1b5c141db314b7f8b4">factorial</a>(num) &lt;&lt; <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; str &lt;&lt; <span class="stringliteral">&quot; is a string&quot;</span> &lt;&lt; <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d00/factorial_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="182" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d00/factorial_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="219" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -173,9 +194,12 @@ Here is the call graph for this function:</div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="afind_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/find.html">std::string::find</a></div><div class="ttdeci">T find(T... args)</div></div>
+<div class="ttc" id="abasic_stringstream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_stringstream.html">std::stringstream</a></div><div class="ttdoc">STL class.</div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
-<div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
-<div class="ttc" id="afactorial_8cpp_html_ae9945c15826a9c1b5c141db314b7f8b4"><div class="ttname"><a href="../../d9/d00/factorial_8cpp.html#ae9945c15826a9c1b5c141db314b7f8b4">factorial</a></div><div class="ttdeci">unsigned int factorial(unsigned int n)</div><div class="ttdef"><b>Definition:</b> factorial.cpp:8</div></div>
+<div class="ttc" id="amatrix__exponentiation_8cpp_html_a600eaf353befc174637855795f12d258"><div class="ttname"><a href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a></div><div class="ttdeci">#define endl</div><div class="ttdef"><b>Definition:</b> matrix_exponentiation.cpp:36</div></div>
+<div class="ttc" id="afactorial_8cpp_html_ae9945c15826a9c1b5c141db314b7f8b4"><div class="ttname"><a href="../../d9/d00/factorial_8cpp.html#ae9945c15826a9c1b5c141db314b7f8b4">factorial</a></div><div class="ttdeci">unsigned int factorial(unsigned int n)</div><div class="ttdef"><b>Definition:</b> factorial.cpp:13</div></div>
+<div class="ttc" id="abasic_istream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

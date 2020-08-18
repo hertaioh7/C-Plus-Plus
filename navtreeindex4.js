@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"dc/dfe/ternary__search_8cpp.html#a7f7d866eccdabe51bb16818a792618b1":[8,0,13,9,3],
 "dc/dfe/ternary__search_8cpp.html#a93d0099db95022f1eb90ddfd68f73ead":[8,0,13,9,6],
 "dc/dfe/ternary__search_8cpp.html#ae01eda5098801bb6b5b778828fb4fddc":[8,0,13,9,1],
 "dc/dfe/ternary__search_8cpp.html#ae30dfe2894191bfeffe5b3b1854b95b0":[8,0,13,9,4],
@@ -199,8 +200,8 @@ var NAVTREEINDEX4 =
 "functions_rela.html":[7,3,4],
 "functions_type.html":[7,3,3],
 "functions_vars.html":[7,3,2],
-"globals.html":[8,1,0,0],
 "globals.html":[8,1,0],
+"globals.html":[8,1,0,0],
 "globals_a.html":[8,1,0,1],
 "globals_b.html":[8,1,0,2],
 "globals_c.html":[8,1,0,3],
@@ -247,7 +248,6 @@ var NAVTREEINDEX4 =
 "globals_u.html":[8,1,0,20],
 "globals_vars.html":[8,1,2],
 "hierarchy.html":[7,2],
-"index.html":[],
 "index.html":[0],
-"index.html#autotoc_md39":[0,0]
+"index.html":[]
 };

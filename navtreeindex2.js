@@ -175,8 +175,9 @@ var NAVTREEINDEX2 =
 "d8/dee/avltree_8cpp.html#aed58f3cea338a9d7bdcb9a4cfc6c7a78":[8,0,2,1,7],
 "d8/dee/avltree_8cpp.html#af4aeda155dbe167f1c1cf38cb65bf324":[8,0,2,1,1],
 "d9/d00/factorial_8cpp.html":[8,0,8,8],
-"d9/d00/factorial_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,8,8,1],
-"d9/d00/factorial_8cpp.html#ae9945c15826a9c1b5c141db314b7f8b4":[8,0,8,8,0],
+"d9/d00/factorial_8cpp.html#a0f1c73b0bce2e2d5eb94b14ae0d78625":[8,0,8,8,0],
+"d9/d00/factorial_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,8,8,2],
+"d9/d00/factorial_8cpp.html#ae9945c15826a9c1b5c141db314b7f8b4":[8,0,8,8,1],
 "d9/d02/linear__search_8cpp.html":[8,0,13,7],
 "d9/d02/linear__search_8cpp.html#a84ac3988a534eb60ca351ed6caf56d84":[8,0,13,7,0],
 "d9/d02/linear__search_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,13,7,1],
@@ -211,8 +212,8 @@ var NAVTREEINDEX2 =
 "d9/d5d/extended__euclid__algorithm_8cpp.html#acba15ca55b3e7dcb91f3c65d72ba052d":[8,0,8,7,0],
 "d9/d5d/extended__euclid__algorithm_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,8,7,2],
 "d9/d66/group__machine__learning.html":[5,1],
-"d9/d66/group__machine__learning.html#ga5118e5cbc4f0886e27b3a7a2544dded1":[5,1,8],
 "d9/d66/group__machine__learning.html#ga5118e5cbc4f0886e27b3a7a2544dded1":[8,0,7,0,5],
+"d9/d66/group__machine__learning.html#ga5118e5cbc4f0886e27b3a7a2544dded1":[5,1,8],
 "d9/d66/group__machine__learning.html#ga525335710b53cb064ca56b936120431e":[8,0,7,1,0],
 "d9/d66/group__machine__learning.html#ga525335710b53cb064ca56b936120431e":[8,0,7,2,0],
 "d9/d66/group__machine__learning.html#ga6c606bc85a3e9fd9d010f874ad760336":[8,0,7,1,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "d9/dee/classdouble__linked__list.html#a25f38dea0b69f2365fe67bdc35f8e0e2":[7,0,12,4],
 "d9/dee/classdouble__linked__list.html#a3b5f341835034d3a74add60781a65470":[7,0,12,1],
 "d9/dee/classdouble__linked__list.html#a4a68961af2c26e06c7b37f7de57d5e5f":[7,0,12,2],
-"d9/dee/classdouble__linked__list.html#a81a7f2c5fa23359b9ddd541a6c8b49f9":[7,0,12,5],
-"d9/dee/classdouble__linked__list.html#a999c63fbdcc64f1fd367282d417a991e":[7,0,12,0]
+"d9/dee/classdouble__linked__list.html#a81a7f2c5fa23359b9ddd541a6c8b49f9":[7,0,12,5]
 };
