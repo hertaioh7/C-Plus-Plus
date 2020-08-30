@@ -16,7 +16,6 @@ unsigned int factorial(unsigned int n) {
 }
 
 
-/** Main function */
 int main() {
     
     int num;
