@@ -17,8 +17,7 @@ unsigned int factorial(unsigned int n) {
 
 
 int main() {
-    
-    int num;
+    int num = 0;
     cout << "Please enter an integer to test factorial(0-33):" << endl;
     cin >> num;
     if (num<0) {
